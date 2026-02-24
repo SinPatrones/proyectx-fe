@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  /* ─── Brand Colors ─────────────────────────────────────────
+     PROYECT- → Rojo   |   X → Verde
+  ──────────────────────────────────────────────────────────── */
+  --color-brand-red:          #DC2626;
+  --color-brand-red-light:    #EF4444;
+  --color-brand-red-dark:     #B91C1C;
+  --color-brand-red-muted:    #7F1D1D;
+
+  --color-brand-green:        #16A34A;
+  --color-brand-green-light:  #22C55E;
+  --color-brand-green-dark:   #15803D;
+  --color-brand-green-muted:  #14532D;
+
+  /* ─── Background Scale (dark-first UI) ──────────────────── */
+  --color-base:               #0D1117;
+  --color-surface:            #161B22;
+  --color-surface-2:          #21262D;
+  --color-surface-3:          #30363D;
+
+  /* ─── Borders ────────────────────────────────────────────── */
+  --color-border:             #30363D;
+  --color-border-subtle:      #21262D;
+
+  /* ─── Text ───────────────────────────────────────────────── */
+  --color-ink:                #F9FAFB;
+  --color-ink-soft:           #9CA3AF;
+  --color-ink-faint:          #6B7280;
+
+  /* ─── Light mode surfaces (para vistas de la plataforma) ── */
+  --color-light-bg:           #F8FAFC;
+  --color-light-surface:      #FFFFFF;
+  --color-light-border:       #E2E8F0;
+  --color-light-ink:          #0F172A;
+  --color-light-ink-soft:     #64748B;
+
+  /* ─── Fonts ──────────────────────────────────────────────── */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #0D1117;
+  --foreground: #F9FAFB;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
