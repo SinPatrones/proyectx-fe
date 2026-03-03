@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Proyect-X | Asesoría Académica en Arequipa",
+  title: "Mi Tesis IA | Asesoría Académica en Arequipa",
   description:
     "Servicios de alta calidad en asesoría académica, investigación, estadística SPSS, Turnitin y desarrollo de software en Arequipa, Perú.",
 };

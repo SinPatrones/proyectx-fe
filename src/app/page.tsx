@@ -26,14 +26,14 @@ export const metadata: Metadata = {
   title: landingData.meta.title,
   description: landingData.meta.description,
   keywords: landingData.meta.keywords,
-  authors: [{ name: "Proyect-X" }],
+  authors: [{ name: "Mi Tesis IA" }],
   robots: "index, follow",
   openGraph: {
     title: landingData.meta.title,
     description: landingData.meta.description,
     type: "website",
     locale: "es_PE",
-    siteName: "Proyect-X",
+    siteName: "Mi Tesis IA",
   },
   twitter: {
     card: "summary_large_image",
