@@ -201,4 +201,25 @@
   body {
     @apply bg-background text-foreground;
   }
+  html {
+    scroll-behavior: smooth;
+    background-color: #ffffff;
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ─── Scroll-triggered section animations ──────────── */
+.section-animate {
+  opacity: 0;
+  transform: translateY(2rem);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.section-animate.section-visible {
+  opacity: 1;
+  transform: translateY(0);
 }

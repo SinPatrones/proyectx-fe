@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Proyect-X | Próximamente",
+  title: "Proyect-X | Asesoría Académica en Arequipa",
   description:
-    "Plataforma de apoyo, asesoría y desarrollo de proyectos para estudiantes, académicos y profesionales en sus etapas formativas e investigativas.",
+    "Servicios de alta calidad en asesoría académica, investigación, estadística SPSS, Turnitin y desarrollo de software en Arequipa, Perú.",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
