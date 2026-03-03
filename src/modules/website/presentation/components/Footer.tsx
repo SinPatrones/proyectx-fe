@@ -118,7 +118,7 @@ export function Footer({ data }: FooterProps) {
           <div className="flex items-center gap-2">
             <span className="text-gray-500 text-xs">Hecho con</span>
             <span className="text-brand-red text-xs">♥</span>
-            <span className="text-gray-500 text-xs">en Arequipa, Perú</span>
+            <span className="text-gray-500 text-xs">en Perú</span>
           </div>
         </div>
       </div>

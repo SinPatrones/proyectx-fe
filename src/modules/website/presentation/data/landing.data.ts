@@ -6,7 +6,7 @@ const WHATSAPP_HREF = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const landingData: LandingPageContent = {
   meta: {
     title:
-      "Proyect-X | Asesoría Académica y Desarrollo de Proyectos en Arequipa",
+      "Proyect-X | Asesoría Académica y Desarrollo de Proyectos",
     description:
       "Somos tu socio académico en Arequipa. Brindamos servicios de alta calidad en asesoría académica, investigación, estadística SPSS, Turnitin, desarrollo de tesis y software. Cercado Arequipa.",
     keywords:
@@ -28,7 +28,7 @@ export const landingData: LandingPageContent = {
   },
 
   hero: {
-    badge: "Tu Socio Académico en Arequipa",
+    badge: "Tu Socio Académico",
     title: { prefix: "PROYECT-", suffix: "X" },
     subtitle: "Tu Socio Académico",
     description:
@@ -473,7 +473,7 @@ export const landingData: LandingPageContent = {
   whyUs: {
     sectionTitle: "Por Qué Elegirnos",
     subtitle:
-      "Somos tu mejor opción para el éxito académico y profesional en Arequipa.",
+      "Somos tu mejor opción para el éxito académico y profesional.",
     items: [
       {
         title: "Experiencia Comprobada",
