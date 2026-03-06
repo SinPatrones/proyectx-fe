@@ -6,7 +6,7 @@ const WHATSAPP_HREF = `https://wa.me/${WHATSAPP_NUMBER}`;
 export const landingData: LandingPageContent = {
   meta: {
     title:
-      "Mi Tesis IA | Asesoría Académica y Desarrollo de Proyectos",
+      "Proyect-X | Asesoría Académica y Desarrollo de Proyectos",
     description:
       "Somos tu socio académico en Arequipa. Brindamos servicios de alta calidad en asesoría académica, investigación, estadística SPSS, Turnitin, desarrollo de tesis y software. Cercado Arequipa.",
     keywords:
@@ -15,7 +15,7 @@ export const landingData: LandingPageContent = {
   },
 
   navbar: {
-    brand: { prefix: "Mi Tesis ", suffix: "IA" },
+    brand: { prefix: "PROYECT-", suffix: "X" },
     links: [
       { label: "Inicio", href: "#inicio" },
       { label: "Servicios", href: "#servicios" },
@@ -29,7 +29,7 @@ export const landingData: LandingPageContent = {
 
   hero: {
     badge: "Tu Socio Académico",
-    title: { prefix: "Mi Tesis ", suffix: "IA" },
+    title: { prefix: "PROYECT-", suffix: "X" },
     subtitle: "Tu Socio Académico",
     description:
       "Servicios de alta calidad en asesoría académica, investigación y desarrollo de proyectos. Comprometidos con tu éxito educativo y profesional.",
@@ -45,7 +45,7 @@ export const landingData: LandingPageContent = {
     locationTitle: "Ubicación",
     locationText: "Encuéntranos en el corazón de Arequipa",
     locationAddress:
-      "Av. Independencia, Centro Comercial Héroes Anónimos 624, 2do piso, tienda Mi Tesis IA, Cercado Arequipa.",
+      "Av. Independencia, Centro Comercial Héroes Anónimos 624, 2do piso, tienda Proyect-X, Cercado Arequipa.",
   },
 
   mission: {
@@ -77,7 +77,7 @@ export const landingData: LandingPageContent = {
   vision: {
     sectionTitle: "Nuestra Visión",
     description:
-      "En Mi Tesis IA aspiramos a ser reconocidos por nuestra excelencia en la aplicación de metodologías de investigación y diseño innovador, así como por nuestro compromiso con la calidad y la ética en todos los aspectos de nuestra labor.",
+      "En Proyect-X aspiramos a ser reconocidos por nuestra excelencia en la aplicación de metodologías de investigación y diseño innovador, así como por nuestro compromiso con la calidad y la ética en todos los aspectos de nuestra labor.",
     levels: [
       {
         title: "Liderazgo Global",
@@ -462,7 +462,7 @@ export const landingData: LandingPageContent = {
       "Estamos listos para atenderte. Comunícate con nosotros por el canal que prefieras.",
     address: "Av. Independencia",
     addressDetail:
-      "Centro Comercial Héroes Anónimos 624, 2do piso tienda Mi Tesis IA, Cercado Arequipa.",
+      "Centro Comercial Héroes Anónimos 624, 2do piso tienda Proyect-X, Cercado Arequipa.",
     phone: "+51 913 258 623",
     email: "zpq61@hotmail.com",
     whatsappHref: WHATSAPP_HREF,
@@ -506,7 +506,7 @@ export const landingData: LandingPageContent = {
     title: "¡Comienza Tu Proyecto Hoy!",
     subtitle: "Da el primer paso hacia tu éxito académico",
     description:
-      "En Mi Tesis IA estamos listos para ayudarte a alcanzar tus metas académicas y profesionales. Contáctanos ahora y descubre cómo podemos ser parte de tu éxito.",
+      "En Proyect-X estamos listos para ayudarte a alcanzar tus metas académicas y profesionales. Contáctanos ahora y descubre cómo podemos ser parte de tu éxito.",
     ctaPrimary: {
       label: "Agendar Consulta",
       href: WHATSAPP_HREF,
@@ -518,7 +518,7 @@ export const landingData: LandingPageContent = {
   },
 
   footer: {
-    brand: { prefix: "Mi Tesis ", suffix: "IA" },
+    brand: { prefix: "PROYECT-", suffix: "X" },
     tagline: "Tu Socio Académico en Arequipa",
     navLinks: [
       { label: "Inicio", href: "#inicio" },
@@ -532,6 +532,6 @@ export const landingData: LandingPageContent = {
       "Av. Independencia, CC. Héroes Anónimos 624, 2do piso, Cercado Arequipa.",
     phone: "+51 913 258 623",
     email: "zpq61@hotmail.com",
-    copyright: "© 2025 Mi Tesis IA. Todos los derechos reservados.",
+    copyright: "© 2025 Proyect-X. Todos los derechos reservados.",
   },
 };

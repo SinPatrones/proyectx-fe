@@ -43,6 +43,18 @@
   /* ─── Fonts ──────────────────────────────────────────────── */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* ─── Mi Tesis IA — AI product palette ──────────────────── */
+  --color-ai-base:           #050A14;
+  --color-ai-surface:        #0A1628;
+  --color-ai-surface-2:      #0F2040;
+  --color-ai-primary:        #2563EB;
+  --color-ai-primary-light:  #3B82F6;
+  --color-ai-accent:         #06B6D4;
+  --color-ai-accent-light:   #22D3EE;
+  --color-ai-text:           #F1F5F9;
+  --color-ai-text-soft:      #94A3B8;
+  --color-ai-text-faint:     #64748B;
 }
 
 /* ─── Page Animations ──────────────────────────────────── */
@@ -210,6 +222,23 @@
 @keyframes spin {
   from { transform: rotate(0deg); }
   to   { transform: rotate(360deg); }
+}
+
+/* ─── Mi Tesis IA — keyframes ──────────────────────────── */
+@keyframes gradient-shift {
+  0%   { background-position: 0%   50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0%   50%; }
+}
+
+@keyframes ai-glow-pulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(37,99,235,0.2), 0 0 40px rgba(6,182,212,0.1); }
+  50%       { box-shadow: 0 0 40px rgba(37,99,235,0.4), 0 0 80px rgba(6,182,212,0.2); }
+}
+
+@keyframes grid-move {
+  0%   { transform: translate(0, 0); }
+  100% { transform: translate(40px, 40px); }
 }
 
 /* ─── Scroll-triggered section animations ──────────── */
